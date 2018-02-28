@@ -14,7 +14,7 @@ import RxSwift
 class ContactAPILocalImplTest: ContactAPI {
     static let shared:ContactAPI = ContactAPILocalImplTest()
     
-    private let contactsArray:[ContactEntity] = [ContactEntity(firstName: "Bdsdds", lastName: "FFg"), ContactEntity(firstName: "Apple", lastName: "Hjhjhj"), ContactEntity(firstName: "23", lastName: "56"), ContactEntity(firstName: "Lol", lastName: "Annor")]
+    private let contactsArray:[ContactEntity] = [ContactEntity(firstName: "Bdsdds", lastName: "FFg"), ContactEntity(firstName: "Apple", lastName: "Hjhjhj"), ContactEntity(firstName: "Max", lastName: "Aturg"), ContactEntity(firstName: "23", lastName: "56"), ContactEntity(firstName: "Lol", lastName: "Annor")]
     
     func getContacts(bySubstring substring:String) -> Observable<[ContactEntity]> {
         let list:[ContactEntity] = substring == "" ? contactsArray : contactsArray.filter { (contact) -> Bool in

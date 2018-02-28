@@ -8,7 +8,6 @@
 
 import XCTest
 @testable import Contacts
-
 class ContactsTests: XCTestCase {
     
     override func setUp() {

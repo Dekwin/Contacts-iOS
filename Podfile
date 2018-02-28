@@ -9,3 +9,10 @@ pod 'IQKeyboardManagerSwift'
 #pod 'SwiftyJSON'
 #pod 'ObjectMapper', '~> 3.1'
 end
+
+target 'ContactsTests' do
+pod 'RxSwift',    '~> 4.0'
+pod 'RxDataSources'
+pod 'RxCocoa',    '~> 4.0'
+pod 'IQKeyboardManagerSwift'
+end

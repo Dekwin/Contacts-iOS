@@ -9,8 +9,6 @@
 import Foundation
 import RxSwift
 
-
-
 protocol ContactAPI {
     func getContacts(bySubstring substring:String) -> Observable<[ContactEntity]>
     
